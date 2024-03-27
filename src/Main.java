@@ -65,7 +65,7 @@ public class Main {
 
             // TWO C
             // short circuit search with break. Find First
-            searchTarget = SafeInput.getRangedInt(in, "Please choose a number", 1, 100);
+            searchTarget = SafeInput.getRangedInt(in, "Please choose another number", 1, 100);
             for (int e = 0; e < dataPoints.length; e++) {
                 if (dataPoints[e] == searchTarget) {
                     foundTarget = true;
